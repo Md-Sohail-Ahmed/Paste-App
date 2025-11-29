@@ -62,25 +62,25 @@ const Paste = () => {
                   </div>
                   <div className="flex sm:absolute sm:right-0 sm:w-[140px] justify-end sm:justify-start gap-1 mt-2 sm:mt-0">
                     <button
-                      className="border p-1 rounded-lg"
+                      className="border p-1 rounded-lg cursor-pointer hover:bg-yellow-300"
                       onClick={() => edit(paste)}
                     >
                       <CiEdit />
                     </button>
                     <button
-                      className="border p-1 rounded-lg"
+                      className="border p-1 rounded-lg cursor-pointer hover:bg-green-400"
                       onClick={() => copy(paste)}
                     >
                       <MdContentCopy />
                     </button>
                     <button
-                      className="border p-1 rounded-lg"
+                      className="border p-1 rounded-lg cursor-pointer hover:bg-blue-300"
                       onClick={() => view(paste)}
                     >
                       <GrView />
                     </button>
                     <button
-                      className="border p-1 rounded-lg"
+                      className="border p-1 rounded-lg cursor-pointer hover:bg-red-400"
                       onClick={() => delpaste(paste?.id)}
                     >
                       <MdDelete />

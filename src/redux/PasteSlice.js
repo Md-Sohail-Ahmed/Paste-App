@@ -47,7 +47,7 @@ export const PasteSlice = createSlice({
   },
 })
 
-// Action creators are generated for each case reducer function
+
 export const { addToPastes, updateToPastes, removeFromPastes,resetAllPastes } = PasteSlice.actions
 
 export default PasteSlice.reducer

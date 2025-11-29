@@ -59,7 +59,7 @@ const Home = () => {
         />
 
         <button
-          className='flex justify-center w-full sm:w-[25%] bg-white rounded-r-xl border items-center hover:bg-blue-500 hover:text-white hover:border-black transition-all delay-75'
+          className='flex justify-center w-full sm:w-[25%] bg-white rounded-r-xl border items-center hover:bg-blue-500 hover:text-white hover:border-black transition-all delay-75 cursor-pointer '
           onClick={create}
         >
           {pasteid ? "Update Paste" : "Create My Paste"}
